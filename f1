@@ -16,6 +16,8 @@ stage('Deploy') {
             steps {
                 echo 'Deploying...'
 echo 'adding new line'
+
+echo 'adding again'
           }
        }
     }
