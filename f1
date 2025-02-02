@@ -1,3 +1,12 @@
- hello jeethendra 
+ pipeline {
+    agent any
 
-making changes please check
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
+
